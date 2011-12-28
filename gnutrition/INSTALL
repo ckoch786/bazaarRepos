@@ -1,0 +1,71 @@
+GNUtrition Installation Guide
+Copyright (C) 2010, 2011 Free Software Foundation, Inc.
+See the end of the file for license conditions.
+
+1. In order to build GNUtrition you need:
+
+ * A working C compiler, like GCC
+ * GTK+
+ * intltool
+ * pkg-config
+
+2. Then, 'cd' to the directory where you unpacked GNUtrition and invoke the 
+'configure' script:
+
+	./configure
+
+Alternatively, create a separate directory, outside the source directory, 
+where you want to build GNUtrition, and invoke 'configure' from there:
+
+	SOURCE-DIR/configure
+
+This may not work unless you use GNU make.
+
+'configure' attempts to deduce the correct values for various system-dependent 
+variables and features.
+
+3. When 'configure' finishes, it prints several lines of details. Read those 
+details carefully looking for anything suspicious. If you find anything wrong,
+you may have to pass to 'configure' one or more options. Run:
+
+	./configure --help
+
+To see all available options.
+
+If you need to run the 'configure' script more than once (e.g., with some 
+non-default options), always clean the source directory before running 
+'configure' again:
+
+	make distclean
+	./configure
+
+4. Invoke the 'make' program:
+
+	make
+
+If 'make' succeeds, it will build an executable program 'gnutrition' in the 
+'src' directory. You can try this program, to make sure it works:
+
+	src/gnutrition
+
+5. Assuming that the program works, you can install the program:
+
+	make install
+
+6. You are now ready to use GNUtrition. You can delete the build directory 
+if you do not plan to build GNUtrition again.
+
+
+This file is part of GNUtrition.
+
+GNUtrition is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+GNUtrition is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see http://www.gnu.org/licenses/.

@@ -1,0 +1,41 @@
+Copyright (C) 2010, 2011 Free Software Foundation, Inc.
+See the end of the file for license conditions.
+
+
+This directory contains version 0.4 of GNUtrition, nutrition analysis software
+written for the GNU operating system.
+
+The file INSTALL in this directory says how to build and install GNUtrition on
+various systems, once you have unpacked or checked out the entire GNUtrition
+file tree.
+
+See the file NEWS for information on new features and other user-visible
+changes in recent versions of GNUtrition.
+
+The food database uses the U.S. Department of Agriculture's National Nutrient 
+Database for Standard Reference, Release 23, which is in the public domain.
+
+The Nutrient Data Laboratory Home Page:
+https://www.ars.usda.gov/main/site_main.htm?modecode=12-35-45-00
+
+You may encounter bugs in this release. If you do, please report them; your
+bug reports are valuable contributions to the FSF, since they allow us to
+notice and fix problems on machines we don't have, or in code we don't use
+often. Please send bug reports for GNUtrition to the mailing list
+bug-gnutrition@gnu.org.
+
+
+
+This file is part of GNUtrition.
+
+GNUtrition is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+GNUtrition is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see http://www.gnu.org/licenses/.

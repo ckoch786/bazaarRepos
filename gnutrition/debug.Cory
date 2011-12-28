@@ -1,0 +1,16 @@
+After successful ./configure and make, when testing the gnutrition by 
+executing the ./gnutrition binary in the src folder get this ill-defined 
+error. This is also the case after I have done a full install with 
+sudo make install
+
+>terah@TK-laptop:~/bazaar/gnutrition$ gnutrition 
+>Failed getting path from location file
+>File not found - please choose a folder containing file named 'database'
+>File not found - please choose a folder containing file named 'database'
+>Gnutrition cannot continue unless a valid database file is found
+
+Issue is resolved after selecting the gnutrition directory in the 
+file open dialog. The gnutrition contains a file named database which 
+seems to be what the error is implying needs to be found.
+
+

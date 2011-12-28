@@ -1,0 +1,1316 @@
+2010-03-11  Peter Kozma <kozma@cfl.hu>
+
+	* gnutrition/AUTHORS, gnutrition/Makefile.in,
+	gnutrition/configure.in, gnutrition/gnutr.py,
+	gnutrition/run-gnutrition.py.in, gnutrition/data/Makefile.in,
+	gnutrition/data/food_des.txt, gnutrition/data/measure.txt,
+	gnutrition/debian/Makefile.in, gnutrition/doc/Makefile.in,
+	gnutrition/doc/gnutrition.sgml, gnutrition/pixmaps/Makefile.in,
+	gnutrition/rpm/Makefile.in, gnutrition/src/Makefile.in,
+	gnutrition/src/base_win.py, gnutrition/src/base_win_ui.py,
+	gnutrition/src/database.py, gnutrition/src/date_widget.py,
+	gnutrition/src/druid.py, gnutrition/src/druid_ui.py,
+	gnutrition/src/file_select_dlg.py, gnutrition/src/food_edit_dlg.py,
+	gnutrition/src/food_edit_dlg_ui.py,
+	gnutrition/src/food_srch_dlg.py,
+	gnutrition/src/food_srch_dlg_ui.py,
+	gnutrition/src/food_srch_res_dlg.py,
+	gnutrition/src/food_srch_res_dlg_ui.py, gnutrition/src/food_win.py,
+	gnutrition/src/food_win_ui.py, gnutrition/src/gnutr.py,
+	gnutrition/src/gnutr_widgets.py, gnutrition/src/install.py,
+	gnutrition/src/nutr_composition_dlg_ui.py,
+	gnutrition/src/nutr_goal_dlg.py,
+	gnutrition/src/nutr_goal_dlg_ui.py, gnutrition/src/plan_add_dlg.py,
+	gnutrition/src/plan_add_dlg_ui.py,
+	gnutrition/src/plan_compute_dlg_ui.py, gnutrition/src/plan_win.py,
+	gnutrition/src/plan_win_ui.py,
+	gnutrition/src/recipe_edit_dlg_ui.py,
+	gnutrition/src/recipe_srch_dlg.py,
+	gnutrition/src/recipe_srch_dlg_ui.py,
+	gnutrition/src/recipe_srch_res_dlg.py,
+	gnutrition/src/recipe_srch_res_dlg_ui.py,
+	gnutrition/src/recipe_win.py, gnutrition/src/recipe_win_ui.py,
+	gnutrition/src/run_app.py, gnutrition/src/store.py,
+	gnutrition/src/test_gnutr_combobox.py: - updated for python 2.4 -
+	ui changes according to the Gnome HIG
+
+2002-02-28  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/AUTHORS, gnutrition/Makefile.in,
+	gnutrition/configure.in, gnutrition/gnutr.py,
+	gnutrition/run-gnutrition.py.in, gnutrition/pixmaps/banana.png,
+	gnutrition/pixmaps/cake.png, gnutrition/pixmaps/plan.png: [no log
+	message]
+
+2002-02-28  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/pixmaps/banana.xpm[DEAD],
+	gnutrition/pixmaps/cake.xpm[DEAD],
+	gnutrition/pixmaps/plan.xpm[DEAD], gnutrition/pixmaps/Makefile.in:
+	[no log message]
+
+2002-02-28  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.in, gnutrition/src/install.py.in:
+	Modified for python2.2
+
+2002-02-28  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/__init__.py, gnutrition/src/base_win.py,
+	gnutrition/src/base_win_ui.py, gnutrition/src/calc_rdi.py,
+	gnutrition/src/config.py, gnutrition/src/database.py,
+	gnutrition/src/date_widget.py, gnutrition/src/druid.py,
+	gnutrition/src/druid_ui.py, gnutrition/src/file_select_dlg.py,
+	gnutrition/src/food_edit_dlg.py,
+	gnutrition/src/food_edit_dlg_ui.py,
+	gnutrition/src/food_srch_dlg.py,
+	gnutrition/src/food_srch_dlg_ui.py,
+	gnutrition/src/food_srch_res_dlg.py,
+	gnutrition/src/food_srch_res_dlg_ui.py, gnutrition/src/food_win.py,
+	gnutrition/src/food_win_ui.py, gnutrition/src/gnutr.py,
+	gnutrition/src/gnutr_consts.py, gnutrition/src/gnutr_stock.py,
+	gnutrition/src/help.py, gnutrition/src/install.py,
+	gnutrition/src/nutr_composition_dlg.py,
+	gnutrition/src/nutr_composition_dlg_ui.py,
+	gnutrition/src/nutr_goal_dlg.py,
+	gnutrition/src/nutr_goal_dlg_ui.py, gnutrition/src/person.py,
+	gnutrition/src/plan_add_dlg.py, gnutrition/src/plan_add_dlg_ui.py,
+	gnutrition/src/plan_compute_dlg.py,
+	gnutrition/src/plan_compute_dlg_ui.py, gnutrition/src/plan_win.py,
+	gnutrition/src/plan_win_ui.py, gnutrition/src/recipe_edit_dlg.py,
+	gnutrition/src/recipe_edit_dlg_ui.py,
+	gnutrition/src/recipe_srch_dlg.py,
+	gnutrition/src/recipe_srch_dlg_ui.py,
+	gnutrition/src/recipe_srch_res_dlg.py,
+	gnutrition/src/recipe_srch_res_dlg_ui.py,
+	gnutrition/src/recipe_win.py, gnutrition/src/recipe_win_ui.py,
+	gnutrition/src/run_app.py, gnutrition/src/save_as.py,
+	gnutrition/src/store.py: New files for gtk+2
+
+2002-02-28  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.py[DEAD],
+	gnutrition/src/calc_rdi.py[DEAD],
+	gnutrition/src/configure.py[DEAD],
+	gnutrition/src/database.py[DEAD], gnutrition/src/druid.py[DEAD],
+	gnutrition/src/edit_food_dlg.py[DEAD],
+	gnutrition/src/edit_recipe_dlg.py[DEAD],
+	gnutrition/src/__init__.py[DEAD],
+	gnutrition/src/food_graph_dlg.py[DEAD],
+	gnutrition/src/food_srch_dlg.py[DEAD],
+	gnutrition/src/food_srch_res_dlg.py[DEAD],
+	gnutrition/src/food_win.py[DEAD],
+	gnutrition/src/gnutr_consts.py[DEAD],
+	gnutrition/src/nutr_bar_graph_dlg.py[DEAD],
+	gnutrition/src/nutr_comp_dlg.py[DEAD],
+	gnutrition/src/nutr_goal_dlg.py[DEAD],
+	gnutrition/src/person.py[DEAD],
+	gnutrition/src/plan_add_dlg.py[DEAD],
+	gnutrition/src/plan_compute_dlg.py[DEAD],
+	gnutrition/src/plan_graph_dlg.py[DEAD],
+	gnutrition/src/plan_win.py[DEAD],
+	gnutrition/src/recipe_srch_dlg.py[DEAD],
+	gnutrition/src/recipe_srch_res_dlg.py[DEAD],
+	gnutrition/src/recipe_win.py[DEAD],
+	gnutrition/src/run_app.py[DEAD], gnutrition/src/store.py[DEAD]: [no
+	log message]
+
+2001-08-11  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/doc/gnutrition.sgml, gnutrition/src/database.py:
+	bugfix
+
+2001-07-30  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/plan_compute_dlg.py,
+	gnutrition/src/plan_graph_dlg.py, gnutrition/src/plan_win.py,
+	gnutrition/src/run_app.py: [no log message]
+
+2001-07-18  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.py: [no log message]
+
+2001-07-10  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_bar_graph_dlg.py,
+	gnutrition/src/plan_graph_dlg.py: New nutrient plot dialog.
+
+2001-07-10  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/gnutrition.py[DEAD]: [no log message]
+
+2001-07-10  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.py, gnutrition/src/database.py,
+	gnutrition/src/food_win.py, gnutrition/src/gnutr_consts.py,
+	gnutrition/src/nutr_comp_dlg.py,
+	gnutrition/src/plan_compute_dlg.py, gnutrition/src/plan_win.py,
+	gnutrition/src/recipe_win.py, gnutrition/src/run_app.py: Added
+	ability to plot nutrient graphs.  Changed python wrappers to mysql
+	to python-mysqldb 0.9.0.
+
+2001-06-20  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_graph_dlg.py, gnutrition/src/food_win.py: [no
+	log message]
+
+2001-06-15  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_graph_dlg.py,
+	gnutrition/src/nutr_comp_dlg.py, gnutrition/src/recipe_win.py,
+	gnutrition/gnutr.py: [no log message]
+
+2001-06-11  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/Makefile.in, gnutrition/po/POTFILES.in,
+	gnutrition/src/food_win.py, gnutrition/src/nutr_comp_dlg.py,
+	gnutrition/src/run_app.py, gnutrition/src/store.py,
+	gnutrition/src/food_graph_dlg.py: [no log message]
+
+2001-06-08  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/doc/Makefile.in, gnutrition/doc/gnutrition.sgml,
+	gnutrition/rpm/gnutrition.spec.in, gnutrition/src/food_win.py,
+	gnutrition/src/plan_win.py, gnutrition/src/recipe_win.py,
+	gnutrition/src/submit-recipe.php: Fixes to PHP script and on-line
+	help
+
+2001-06-06  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/rpm/gnutrition.spec.in: [no log message]
+
+2001-06-06  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/doc/Makefile.in, gnutrition/Makefile.in,
+	gnutrition/configure.in, gnutrition/doc/Makefile[DEAD]: [no log
+	message]
+
+2001-06-06  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/debian/Makefile.in, gnutrition/debian/README.Debian,
+	gnutrition/debian/changelog, gnutrition/debian/control,
+	gnutrition/debian/copyright, gnutrition/debian/docs,
+	gnutrition/debian/gnutrition.menu, gnutrition/debian/postinst,
+	gnutrition/debian/prerm, gnutrition/debian/rules: [no log message]
+
+2001-06-06  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/doc/Makefile, gnutrition/doc/apple.jpg,
+	gnutrition/doc/apple_result.jpg, gnutrition/doc/db_login.jpg,
+	gnutrition/doc/details.jpg, gnutrition/doc/food_srch.jpg,
+	gnutrition/doc/main.jpg, gnutrition/doc/nutr_srch.jpg,
+	gnutrition/doc/single.jpg, gnutrition/doc/topic.dat: Makefile for
+	documentation
+
+2001-06-06  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/Makefile.in, gnutrition/autogen.sh,
+	gnutrition/configure.in, gnutrition/data/Makefile.in,
+	gnutrition/pixmaps/Makefile.in, gnutrition/src/Makefile.in,
+	gnutrition/rpm/Makefile.in, gnutrition/rpm/gnutrition.spec.in,
+	gnutrition/rpm/remove_prefix.py: [no log message]
+
+2001-06-06  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/Makefile.inc.in[DEAD], gnutrition/configure[DEAD],
+	gnutrition/data/Makefile[DEAD], gnutrition/pixmaps/Makefile[DEAD],
+	gnutrition/src/Makefile[DEAD]: [no log message]
+
+2001-06-06  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/gnutrition.desktop, gnutrition/doc/gnutrition.sgml,
+	gnutrition/src/gnutr_consts.py, gnutrition/src/recipe_win.py,
+	gnutrition/src/submit-recipe.php: upport for submitting recipes to
+	central repository.  PHP script running on SourceForge included
+
+2001-05-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/AUTHORS, gnutrition/src/food_win.py,
+	gnutrition/src/nutr_goal_dlg.py,
+	gnutrition/src/recipe_srch_res_dlg.py,
+	gnutrition/src/recipe_win.py: added recipe instructions text box to
+	recipe_win, addded percentage of calories from protein, fat and
+	carbs to nutritient composition dialog.
+
+2001-05-30  Ian Haywood <ihaywood3@gmail.com>
+
+	* doc/apple.jpg[DEAD], doc/apple_result.jpg[DEAD],
+	doc/db_login.jpg[DEAD], doc/details.jpg[DEAD],
+	doc/food_srch.jpg[DEAD], doc/gnutrition.pdf[DEAD],
+	doc/gnutrition.sgml[DEAD], doc/main.jpg[DEAD],
+	doc/nutr_srch.jpg[DEAD], doc/single.jpg[DEAD]: [no log message]
+
+2001-05-28  Ian Haywood <ihaywood3@gmail.com>
+
+	* doc/apple_result.jpg, doc/gnutrition.pdf, doc/gnutrition.sgml,
+	doc/nutr_srch.jpg, doc/gnutrition/acids.html,
+	doc/gnutrition/apple_result.jpg, doc/gnutrition/book1.html,
+	doc/gnutrition/lipids.html, doc/gnutrition/nutr_srch.jpg,
+	doc/gnutrition/x167.html: Update to docs:
+
+2001-05-27  Ian Haywood <ihaywood3@gmail.com>
+
+	* doc/apple.jpg, doc/db_login.jpg, doc/details.jpg,
+	doc/food_srch.jpg, doc/gnutrition.pdf, doc/gnutrition.sgml,
+	doc/main.jpg, doc/single.jpg, doc/gnutrition/a353.html,
+	doc/gnutrition/acids.html, doc/gnutrition/apple.jpg,
+	doc/gnutrition/b357.html, doc/gnutrition/book1.html,
+	doc/gnutrition/c112.html, doc/gnutrition/c13.html,
+	doc/gnutrition/db_login.jpg, doc/gnutrition/details.jpg,
+	doc/gnutrition/docbook.css, doc/gnutrition/food_srch.jpg,
+	doc/gnutrition/lipids.html, doc/gnutrition/main.jpg,
+	doc/gnutrition/nutr.html, doc/gnutrition/single.jpg,
+	doc/gnutrition/x148.html, doc/gnutrition/x152.html,
+	doc/gnutrition/x167.html, doc/gnutrition/x204.html,
+	doc/gnutrition/x256.html, doc/gnutrition/x64.html,
+	doc/gnutrition/x93.html,
+	doc/gnutrition/stylesheet-images/caution.gif,
+	doc/gnutrition/stylesheet-images/home.gif,
+	doc/gnutrition/stylesheet-images/important.gif,
+	doc/gnutrition/stylesheet-images/next.gif,
+	doc/gnutrition/stylesheet-images/note.gif,
+	doc/gnutrition/stylesheet-images/prev.gif,
+	doc/gnutrition/stylesheet-images/tip.gif,
+	doc/gnutrition/stylesheet-images/toc-blank.gif,
+	doc/gnutrition/stylesheet-images/toc-minus.gif,
+	doc/gnutrition/stylesheet-images/toc-plus.gif,
+	doc/gnutrition/stylesheet-images/up.gif,
+	doc/gnutrition/stylesheet-images/warning.gif: Inital draft of
+	Gnutrition documentation
+
+2001-05-24  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/autogen.sh, gnutrition/configure: [no log message]
+
+2001-05-24  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/INSTALL, gnutrition/README, gnutrition/configure.in,
+	gnutrition/gnutrition.py, gnutrition/data/Makefile,
+	gnutrition/src/install.py.in: [no log message]
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/gnutrition.desktop: [no log message]
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/Makefile.am[DEAD], gnutrition/data/Makefile: [no
+	log message]
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/AUTHORS, gnutrition/COPYING, gnutrition/Changelog,
+	gnutrition/INSTALL, gnutrition/Makefile.in,
+	gnutrition/Makefile.inc.in, gnutrition/README,
+	gnutrition/autogen.sh, gnutrition/configure,
+	gnutrition/configure.in, gnutrition/gnutrition.py,
+	gnutrition/install-sh, gnutrition/missing,
+	gnutrition/mkinstalldirs, gnutrition/py-compile,
+	gnutrition/run-gnutrition.py.in: [no log message]
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/ABOUT-NLS[DEAD], gnutrition/AUTHORS[DEAD],
+	gnutrition/BUGS[DEAD], gnutrition/COPYING[DEAD],
+	gnutrition/ChangeLog[DEAD], gnutrition/INSTALL[DEAD],
+	gnutrition/Makefile[DEAD], gnutrition/Makefile.am[DEAD],
+	gnutrition/Makefile.in[DEAD], gnutrition/NEWS[DEAD],
+	gnutrition/README[DEAD], gnutrition/acconfig.h[DEAD],
+	gnutrition/aclocal.m4[DEAD], gnutrition/autogen.sh[DEAD],
+	gnutrition/config.cache[DEAD], gnutrition/config.h[DEAD],
+	gnutrition/config.h.in[DEAD], gnutrition/config.log[DEAD],
+	gnutrition/config.status[DEAD], gnutrition/configure[DEAD],
+	gnutrition/configure.in[DEAD], gnutrition/gnutr.desktop[DEAD],
+	gnutrition/install-sh[DEAD], gnutrition/missing[DEAD],
+	gnutrition/mkinstalldirs[DEAD], gnutrition/stamp-h[DEAD],
+	gnutrition/stamp-h.in[DEAD]: [no log message]
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/pixmaps/Makefile.am[DEAD],
+	gnutrition/pixmaps/README[DEAD],
+	gnutrition/pixmaps/apple-green.png[DEAD],
+	gnutrition/pixmaps/apple-red.png[DEAD],
+	gnutrition/pixmaps/banana.png[DEAD],
+	gnutrition/pixmaps/cake.png[DEAD],
+	gnutrition/pixmaps/gnutrition-logo.png[DEAD],
+	gnutrition/pixmaps/plan.png[DEAD],
+	gnutrition/pixmaps/splash_gnutrition.png[DEAD],
+	gnutrition/pixmaps/Makefile, gnutrition/pixmaps/banana.png,
+	gnutrition/pixmaps/banana.xpm, gnutrition/pixmaps/cake.png,
+	gnutrition/pixmaps/cake.xpm,
+	gnutrition/pixmaps/gnutrition-logo.png,
+	gnutrition/pixmaps/plan.png, gnutrition/pixmaps/plan.xpm,
+	gnutrition/pixmaps/splash_gnutrition.png: [no log message]
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile, gnutrition/src/__init__.py,
+	gnutrition/src/base_win.py, gnutrition/src/calc_rdi.py,
+	gnutrition/src/configure.py, gnutrition/src/database.py,
+	gnutrition/src/druid.py, gnutrition/src/edit_food_dlg.py,
+	gnutrition/src/edit_recipe_dlg.py, gnutrition/src/food_srch_dlg.py,
+	gnutrition/src/food_srch_res_dlg.py, gnutrition/src/food_win.py,
+	gnutrition/src/gnutr_consts.py, gnutrition/src/install.py.in,
+	gnutrition/src/nutr_comp_dlg.py, gnutrition/src/nutr_goal_dlg.py,
+	gnutrition/src/person.py, gnutrition/src/plan_add_dlg.py,
+	gnutrition/src/plan_compute_dlg.py, gnutrition/src/plan_win.py,
+	gnutrition/src/recipe_srch_dlg.py,
+	gnutrition/src/recipe_srch_res_dlg.py,
+	gnutrition/src/recipe_win.py, gnutrition/src/run_app.py,
+	gnutrition/src/store.py: First commit of new Python code.
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile[DEAD], gnutrition/src/Makefile.am[DEAD],
+	gnutrition/src/Makefile.in[DEAD], gnutrition/src/food_win.c[DEAD],
+	gnutrition/src/food_win.h[DEAD],
+	gnutrition/src/gnutr_druid.c[DEAD],
+	gnutrition/src/init_database.c[DEAD],
+	gnutrition/src/init_database.h[DEAD],
+	gnutrition/src/person.c[DEAD], gnutrition/src/person.h[DEAD],
+	gnutrition/src/plan.c[DEAD], gnutrition/src/plan.h[DEAD],
+	gnutrition/src/plan_add_dlg.c[DEAD],
+	gnutrition/src/plan_add_dlg.h[DEAD],
+	gnutrition/src/plan_compute.c[DEAD],
+	gnutrition/src/plan_compute.h[DEAD],
+	gnutrition/src/plan_compute_dlg.c[DEAD],
+	gnutrition/src/plan_compute_dlg.h[DEAD],
+	gnutrition/src/plan_win.c[DEAD], gnutrition/src/plan_win.h[DEAD],
+	gnutrition/src/rdi.c[DEAD], gnutrition/src/rdi.h[DEAD],
+	gnutrition/src/recipe.c[DEAD], gnutrition/src/recipe.h[DEAD],
+	gnutrition/src/recipe_srch_dlg.c[DEAD],
+	gnutrition/src/recipe_srch_dlg.h[DEAD],
+	gnutrition/src/recipe_srch_res.c[DEAD],
+	gnutrition/src/recipe_srch_res.h[DEAD],
+	gnutrition/src/wrap_mysql.c[DEAD],
+	gnutrition/src/wrap_mysql.h[DEAD],
+	gnutrition/src/gnutr_druid.h[DEAD]: Clearing out the way for the
+	transition from C to Python.
+
+2001-05-23  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.c[DEAD],
+	gnutrition/src/edit_food_dlg.c[DEAD],
+	gnutrition/src/edit_recipe_dlg.c[DEAD],
+	gnutrition/src/food.c[DEAD], gnutrition/src/food_srch_dlg.c[DEAD],
+	gnutrition/src/food_srch_res.c[DEAD],
+	gnutrition/src/load_data.c[DEAD], gnutrition/src/main.c[DEAD],
+	gnutrition/src/nutr_comp_dlg.c[DEAD],
+	gnutrition/src/nutr_goal.c[DEAD],
+	gnutrition/src/nutr_goal_dlg_ui.c[DEAD],
+	gnutrition/src/recipe_win.c[DEAD], gnutrition/src/support.c[DEAD],
+	gnutrition/src/text_util.c[DEAD], gnutrition/src/unit.c[DEAD],
+	gnutrition/src/base_win.h[DEAD],
+	gnutrition/src/edit_food_dlg.h[DEAD],
+	gnutrition/src/edit_recipe_dlg.h[DEAD],
+	gnutrition/src/food.h[DEAD], gnutrition/src/food_srch_dlg.h[DEAD],
+	gnutrition/src/food_srch_res.h[DEAD],
+	gnutrition/src/load_data.h[DEAD],
+	gnutrition/src/nutr_comp_dlg.h[DEAD],
+	gnutrition/src/nutr_goal.h[DEAD],
+	gnutrition/src/nutr_goal_dlg_ui.h[DEAD],
+	gnutrition/src/recipe_win.h[DEAD], gnutrition/src/support.h[DEAD],
+	gnutrition/src/text_util.h[DEAD], gnutrition/src/unit.h[DEAD]:
+	Clearing out the way for transition from C to Python.
+
+2001-04-19  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/README: RedHat MySQL setup has bug - fix instructions
+	in README.
+
+2001-04-19  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/src/person.c: Bugfix to person.c: Changed inital
+	person_no to 1001, as this variable is only a 16-bit integer on
+	SQL, so original inital value of 1000001 will not work.  Changed
+	interface - seperated amino acids into essential and non-essential,
+	nutritionally this is significant as non-essential AAs are not so
+	important.
+
+2001-04-04  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.c, gnutrition/src/edit_food_dlg.c,
+	gnutrition/src/food.c, gnutrition/src/food.h,
+	gnutrition/src/food_srch_dlg.c, gnutrition/src/food_srch_res.c,
+	gnutrition/src/food_win.c, gnutrition/src/gnutr_druid.c,
+	gnutrition/src/load_data.c, gnutrition/src/nutr_comp_dlg.c,
+	gnutrition/src/nutr_comp_dlg.h, gnutrition/src/nutr_goal.c,
+	gnutrition/src/nutr_goal_dlg_ui.c, gnutrition/src/person.c,
+	gnutrition/src/plan.c, gnutrition/src/plan_add_dlg.c,
+	gnutrition/src/plan_compute.c, gnutrition/src/plan_compute_dlg.c,
+	gnutrition/src/plan_win.c, gnutrition/src/recipe.c,
+	gnutrition/src/recipe_srch_dlg.c, gnutrition/src/recipe_srch_res.c,
+	gnutrition/src/recipe_win.c, gnutrition/src/recipe_win.h,
+	gnutrition/src/wrap_mysql.c, gnutrition/src/wrap_mysql.h: [no log
+	message]
+
+2001-03-22  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_comp_dlg.c, gnutrition/src/wrap_mysql.c: [no
+	log message]
+
+2001-03-20  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/NEWS, gnutrition/README, gnutrition/configure.in: [no
+	log message]
+
+2001-03-20  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_srch_res.c: [no log message]
+
+2001-03-18  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/po/POTFILES.in, gnutrition/src/init_database.h,
+	gnutrition/src/person.h, gnutrition/po/project15.pot[DEAD]: [no log
+	message]
+
+2001-03-18  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food.c, gnutrition/src/food_srch_res.c,
+	gnutrition/src/gnutr_druid.c, gnutrition/src/init_database.c,
+	gnutrition/src/nutr_comp_dlg.c, gnutrition/src/nutr_goal.c,
+	gnutrition/src/nutr_goal_dlg_ui.c, gnutrition/src/person.c,
+	gnutrition/src/plan.c, gnutrition/src/plan_add_dlg.c,
+	gnutrition/src/plan_compute.c, gnutrition/src/recipe.c,
+	gnutrition/src/recipe_srch_res.c, gnutrition/src/recipe_win.c: [no
+	log message]
+
+2001-03-15  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_srch_dlg.c, gnutrition/src/plan_add_dlg.c,
+	gnutrition/src/recipe_srch_res.c: [no log message]
+
+2001-03-12  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_srch_dlg.c, gnutrition/src/food_win.c,
+	gnutrition/src/nutr_comp_dlg.c, gnutrition/src/recipe_srch_dlg.c,
+	gnutrition/src/recipe_srch_res.c: [no log message]
+
+2001-03-11  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/gnutr_druid.c, gnutrition/src/init_database.c,
+	gnutrition/src/person.c, gnutrition/configure.in: [no log message]
+
+2001-03-07  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_win.c: [no log message]
+
+2001-02-09  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/Makefile.am, gnutrition/acconfig.h,
+	gnutrition/config.h.in, gnutrition/configure.in,
+	gnutrition/data/category.txt, gnutrition/data/food_des.txt,
+	gnutrition/data/script.sh: [no log message]
+
+2001-02-09  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am, gnutrition/src/base_win.c,
+	gnutrition/src/edit_food_dlg.c, gnutrition/src/edit_recipe_dlg.c,
+	gnutrition/src/food.c, gnutrition/src/food_srch_dlg.c,
+	gnutrition/src/food_srch_res.c, gnutrition/src/food_win.c,
+	gnutrition/src/gnutr_druid.c, gnutrition/src/init_database.c,
+	gnutrition/src/load_data.c, gnutrition/src/main.c,
+	gnutrition/src/nutr_comp_dlg.c, gnutrition/src/nutr_goal.c,
+	gnutrition/src/nutr_goal_dlg_ui.c, gnutrition/src/person.c,
+	gnutrition/src/plan.c, gnutrition/src/plan_add_dlg.c,
+	gnutrition/src/plan_compute.c, gnutrition/src/plan_compute_dlg.c,
+	gnutrition/src/plan_win.c, gnutrition/src/plan_win.h,
+	gnutrition/src/recipe.c, gnutrition/src/recipe.h,
+	gnutrition/src/recipe_srch_dlg.c, gnutrition/src/recipe_srch_res.c,
+	gnutrition/src/recipe_win.c, gnutrition/src/recipe_win.h,
+	gnutrition/src/support.c, gnutrition/src/text_util.c,
+	gnutrition/src/unit.c, gnutrition/src/wrap_mysql.c,
+	gnutrition/src/wrap_mysql.h: [no log message]
+
+2001-02-09  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/gnutr.desktop, gnutrition/data/Makefile.am,
+	gnutrition/data/sr13_doc.pdf, gnutrition/pixmaps/Makefile.am,
+	gnutrition/pixmaps/README: [no log message]
+
+2001-01-25  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.c, gnutrition/src/base_win.h,
+	gnutrition/src/edit_food_dlg.c, gnutrition/src/edit_food_dlg.h,
+	gnutrition/src/edit_recipe_dlg.c, gnutrition/src/edit_recipe_dlg.h,
+	gnutrition/src/food.c, gnutrition/src/food.h,
+	gnutrition/src/food_srch_dlg.c, gnutrition/src/food_srch_dlg.h,
+	gnutrition/src/food_srch_res.c, gnutrition/src/food_srch_res.h,
+	gnutrition/src/food_win.c, gnutrition/src/food_win.h,
+	gnutrition/src/gnutr_druid.c, gnutrition/src/gnutr_druid.h,
+	gnutrition/src/init_database.c, gnutrition/src/init_database.h,
+	gnutrition/src/load_data.c, gnutrition/src/load_data.h,
+	gnutrition/src/main.c, gnutrition/src/nutr_comp_dlg.c,
+	gnutrition/src/nutr_comp_dlg.h, gnutrition/src/nutr_goal.c,
+	gnutrition/src/nutr_goal.h, gnutrition/src/nutr_goal_dlg_ui.c,
+	gnutrition/src/nutr_goal_dlg_ui.h, gnutrition/src/person.c,
+	gnutrition/src/person.h, gnutrition/src/plan.c,
+	gnutrition/src/plan.h, gnutrition/src/plan_add_dlg.c,
+	gnutrition/src/plan_add_dlg.h, gnutrition/src/plan_compute.c,
+	gnutrition/src/plan_compute_dlg.c,
+	gnutrition/src/plan_compute_dlg.h, gnutrition/src/plan_win.c,
+	gnutrition/src/plan_win.h, gnutrition/src/rdi.c,
+	gnutrition/src/rdi.h, gnutrition/src/recipe.c,
+	gnutrition/src/recipe.h, gnutrition/src/recipe_srch_dlg.c,
+	gnutrition/src/recipe_srch_dlg.h, gnutrition/src/recipe_srch_res.c,
+	gnutrition/src/recipe_srch_res.h, gnutrition/src/recipe_win.c,
+	gnutrition/src/recipe_win.h, gnutrition/src/text_util.c,
+	gnutrition/src/text_util.h, gnutrition/src/wrap_mysql.c,
+	gnutrition/src/wrap_mysql.h, gnutrition/aclocal.m4,
+	gnutrition/src/Makefile.am: [no log message]
+
+2001-01-25  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/category.txt, gnutrition/src/messages.c[DEAD],
+	gnutrition/src/messages.h[DEAD]: [no log message]
+
+2001-01-04  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/person.c, gnutrition/src/plan_compute.h: [no log
+	message]
+
+2001-01-04  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_goal.h, gnutrition/src/nutr_goal_dlg_ui.c,
+	gnutrition/src/plan.c, gnutrition/src/plan.h,
+	gnutrition/src/plan_win.c, gnutrition/src/rdi.c,
+	gnutrition/src/rdi.h, gnutrition/src/recipe.c,
+	gnutrition/src/recipe.h, gnutrition/src/recipe_srch_dlg.c,
+	gnutrition/src/recipe_srch_res.c, gnutrition/src/recipe_win.c,
+	gnutrition/src/recipe_win.h, gnutrition/src/wrap_mysql.c,
+	gnutrition/src/wrap_mysql.h, gnutrition/src/person.h,
+	gnutrition/src/plan_compute.c, gnutrition/src/plan_compute_dlg.c,
+	gnutrition/src/plan_compute_dlg.h: [no log message]
+
+2001-01-04  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe_db.c[DEAD], gnutrition/src/food_db.c[DEAD],
+	gnutrition/src/food_db.h[DEAD],
+	gnutrition/src/nutr_goal_dlg.c[DEAD],
+	gnutrition/src/nutr_goal_dlg.h[DEAD],
+	gnutrition/src/nutrgoal_db.c[DEAD],
+	gnutrition/src/nutrgoal_db.h[DEAD],
+	gnutrition/src/nutrgoal_io.c[DEAD],
+	gnutrition/src/nutrgoal_io.h[DEAD],
+	gnutrition/src/recipe_db.h[DEAD],
+	gnutrition/src/recipe_safe.c[DEAD], gnutrition/src/Makefile.am,
+	gnutrition/src/base_win.c, gnutrition/src/edit_food_dlg.c,
+	gnutrition/src/edit_recipe_dlg.c, gnutrition/src/food.c,
+	gnutrition/src/food.h, gnutrition/src/food_srch_res.c,
+	gnutrition/src/gnutr_druid.c, gnutrition/src/init_database.c,
+	gnutrition/src/load_data.c, gnutrition/src/nutr_comp_dlg.c,
+	gnutrition/src/nutr_comp_dlg.h, gnutrition/src/nutr_goal.c: [no log
+	message]
+
+2000-12-12  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/wrapper_mysql_db.c[DEAD],
+	gnutrition/src/wrapper_mysql_db.h[DEAD],
+	gnutrition/src/edit_food_dlg.c, gnutrition/src/food.c,
+	gnutrition/src/food_srch_dlg.c, gnutrition/src/food_srch_res.c,
+	gnutrition/src/gnutr_druid.c, gnutrition/src/init_database.c,
+	gnutrition/src/load_data.c, gnutrition/src/main.c,
+	gnutrition/src/plan.c, gnutrition/src/plan_win.c,
+	gnutrition/src/rdi.c, gnutrition/src/recipe.c,
+	gnutrition/src/recipe_db.c, gnutrition/src/recipe_srch_dlg.c,
+	gnutrition/src/recipe_srch_res.c, gnutrition/src/recipe_win.c,
+	gnutrition/src/edit_food_dlg.h, gnutrition/src/food.h,
+	gnutrition/src/food_srch_dlg.h, gnutrition/src/init_database.h,
+	gnutrition/src/load_data.h, gnutrition/src/plan.h,
+	gnutrition/src/recipe.h, gnutrition/src/recipe_win.h,
+	gnutrition/src/Makefile.am: [no log message]
+
+2000-12-12  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_goal.c, gnutrition/src/nutr_goal.h,
+	gnutrition/src/nutr_goal_dlg_ui.c,
+	gnutrition/src/nutr_goal_dlg_ui.h, gnutrition/src/nutrgoal_db.c,
+	gnutrition/src/nutrgoal_db.h, gnutrition/src/wrap_mysql.c,
+	gnutrition/src/wrap_mysql.h: [no log message]
+
+2000-11-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am, gnutrition/src/base_win.c,
+	gnutrition/src/base_win.h, gnutrition/src/edit_food_dlg.c,
+	gnutrition/src/main.c, gnutrition/src/nutr_comp_dlg.c,
+	gnutrition/src/nutr_comp_dlg.h, gnutrition/src/nutr_goal_dlg.c,
+	gnutrition/src/nutr_goal_dlg.h, gnutrition/src/plan_win.c,
+	gnutrition/src/recipe.c, gnutrition/src/recipe.h,
+	gnutrition/src/recipe_db.h, gnutrition/src/recipe_srch_res.c,
+	gnutrition/src/recipe_win.c, gnutrition/src/recipe_win.h: [no log
+	message]
+
+2000-11-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_db.c, gnutrition/src/food_db.h,
+	gnutrition/src/food_win.c, gnutrition/src/food_win.h,
+	gnutrition/src/gnutr_druid.c, gnutrition/src/gnutr_druid.h,
+	gnutrition/src/init_database.c, gnutrition/src/init_database.h,
+	gnutrition/src/recipe_db.c, gnutrition/src/recipe_safe.c,
+	gnutrition/src/wrapper_mysql_db.c,
+	gnutrition/src/wrapper_mysql_db.h: [no log message]
+
+2000-11-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/po/Makefile.in.in, gnutrition/po/POTFILES,
+	gnutrition/po/cat-id-tbl.c, gnutrition/po/gnutrition.pot: [no log
+	message]
+
+2000-11-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am, gnutrition/src/base_win.c,
+	gnutrition/src/base_win.h, gnutrition/src/edit_food_dlg.c,
+	gnutrition/src/edit_food_dlg.h, gnutrition/src/food.c,
+	gnutrition/src/food.h, gnutrition/src/food_srch_dlg.c,
+	gnutrition/src/food_srch_res.c, gnutrition/src/food_srch_res.h,
+	gnutrition/src/nutr_comp_dlg.c, gnutrition/src/nutr_goal_dlg.c,
+	gnutrition/src/plan.c, gnutrition/src/plan.h,
+	gnutrition/src/plan_add_dlg.c, gnutrition/src/plan_win.c,
+	gnutrition/src/plan_win.h, gnutrition/src/recipe.c,
+	gnutrition/src/recipe.h, gnutrition/src/recipe_srch_dlg.c,
+	gnutrition/src/recipe_srch_res.c, gnutrition/src/recipe_win.c,
+	gnutrition/src/recipe_win.h: [no log message]
+
+2000-11-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/meal_food_add_dlg.c[DEAD],
+	gnutrition/src/meal_food_add_dlg.h[DEAD],
+	gnutrition/src/meal_plan_win.c[DEAD],
+	gnutrition/src/meal_plan_win.h[DEAD],
+	gnutrition/src/edit_recipe_dlg.c, gnutrition/src/edit_recipe_dlg.h:
+	[no log message]
+
+2000-10-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe_io.c[DEAD],
+	gnutrition/src/recipe_file_dlg.c[DEAD],
+	gnutrition/src/recipe_file_dlg.h[DEAD]: [no log message]
+
+2000-10-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe.h: new recipe database structure.
+
+2000-10-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.c: gtk_widget_reparent() now works due to
+	changes in the glade files.
+
+2000-10-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am, gnutrition/src/base_win.h,
+	gnutrition/src/edit_food_dlg.c, gnutrition/src/food.c,
+	gnutrition/src/food.h, gnutrition/src/food_srch_res.c,
+	gnutrition/src/load_data.c, gnutrition/src/load_data.h,
+	gnutrition/src/nutr_comp_dlg.c, gnutrition/src/nutr_goal_dlg.c,
+	gnutrition/src/nutrgoal_io.c, gnutrition/src/nutrgoal_io.h,
+	gnutrition/src/rdi.c, gnutrition/src/rdi.h,
+	gnutrition/src/recipe_win.c, gnutrition/src/recipe_win.h,
+	gnutrition/src/text_util.c, gnutrition/src/text_util.h: updates to
+	support a (very) basic database of recipes, and silightly more
+	functionality to the plan window.
+
+2000-10-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/plan.c, gnutrition/src/plan.h,
+	gnutrition/src/plan_add_dlg.c, gnutrition/src/plan_add_dlg.h,
+	gnutrition/src/plan_win.c, gnutrition/src/plan_win.h,
+	gnutrition/src/recipe.c, gnutrition/src/recipe_srch_dlg.c,
+	gnutrition/src/recipe_srch_dlg.h, gnutrition/src/recipe_srch_res.c,
+	gnutrition/src/recipe_srch_res.h: newly added files.
+
+2000-09-06  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/src/base_win.c, gnutrition/src/food_srch_res.c,
+	gnutrition/src/recipe.h, gnutrition/src/recipe_db.h: Fixed toast
+	and bread bug.	Added recipe_db.h - interface to database backend.
+	Added some extra fields to the Recipe_t struct Still probems with
+	gtk_container_add () in base_win.c lines 112-125
+
+2000-09-04  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/base_win.c, gnutrition/src/base_win.h,
+	gnutrition/src/food.c, gnutrition/src/food_srch_res.c,
+	gnutrition/src/food_srch_res.h, gnutrition/src/meal_food_add_dlg.c,
+	gnutrition/src/meal_food_add_dlg.h, gnutrition/src/meal_plan_win.c,
+	gnutrition/src/meal_plan_win.h, gnutrition/src/nutr_goal_dlg.c,
+	gnutrition/src/nutrgoal_io.c, gnutrition/src/recipe_file_dlg.c,
+	gnutrition/src/recipe_io.c, gnutrition/src/unit.c: [no log message]
+
+2000-09-04  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/pixmaps/banana.png, gnutrition/pixmaps/cake.png,
+	gnutrition/pixmaps/plan.png: New pixmaps.
+
+2000-08-30  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/po/gnutrition.pot, gnutrition/src/food_srch_res.c:
+	Fine-tuning of tree algorithm in food_srch_res.c
+
+2000-08-25  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/AUTHORS:
+
+	Corrected my e-mail address (Ian Haywood <ihaywood3@gmail.com>@gnu.org)
+
+2000-08-25  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/Makefile.in, gnutrition/configure,
+	gnutrition/po/cat-id-tbl.c, gnutrition/po/gnutrition.pot,
+	gnutrition/src/Makefile.am, gnutrition/src/Makefile.in,
+	gnutrition/src/base_win.c, gnutrition/src/food.c,
+	gnutrition/src/food.h, gnutrition/src/food_srch_res.c,
+	gnutrition/src/nutr_comp_dlg.c, gnutrition/src/nutr_goal_dlg.c,
+	gnutrition/src/nutrgoal_io.c, gnutrition/src/rdi.c,
+	gnutrition/src/recipe_io.c, gnutrition/src/unit.c,
+	gnutrition/src/unit.h:
+	Ian Haywood 26/8/00
+
+	Four changes:
+
+	#include<xmlmemory.h> becomes #include<gnome-xml/xmlmemory.h>
+	(otherwise doesn't compile)
+
+	In base_win.c - minor bugfix with toolbars and menubars.
+
+	Added unit.c - metric converter from RAT. Hook in food.c
+
+	Added tree geberator to food_srch-res.c to give tree instead of
+	list as food result.
+
+2000-08-25  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am, gnutrition/src/base_win.c,
+	gnutrition/src/base_win.h, gnutrition/src/edit_food_dlg.c,
+	gnutrition/src/edit_food_dlg.h, gnutrition/src/food.c,
+	gnutrition/src/food.h, gnutrition/src/food_srch_dlg.c,
+	gnutrition/src/food_srch_dlg.h, gnutrition/src/food_srch_res.c,
+	gnutrition/src/food_srch_res.h, gnutrition/src/load_data.c,
+	gnutrition/src/load_data.h, gnutrition/src/main.c,
+	gnutrition/src/meal_food_add_dlg.c,
+	gnutrition/src/meal_food_add_dlg.h, gnutrition/src/meal_plan_win.c,
+	gnutrition/src/meal_plan_win.h, gnutrition/src/messages.c,
+	gnutrition/src/messages.h, gnutrition/src/nutr_comp_dlg.c,
+	gnutrition/src/nutr_comp_dlg.h, gnutrition/src/nutr_goal_dlg.c,
+	gnutrition/src/nutr_goal_dlg.h, gnutrition/src/nutrgoal_io.c,
+	gnutrition/src/recipe.h, gnutrition/src/recipe_file_dlg.c,
+	gnutrition/src/recipe_file_dlg.h, gnutrition/src/recipe_io.c,
+	gnutrition/src/recipe_win.c, gnutrition/src/recipe_win.h,
+	gnutrition/src/text_util.c, gnutrition/src/text_util.h: many
+	updates.
+
+2000-08-25  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/search_dlg.c[DEAD],
+	gnutrition/src/search_dlg.h[DEAD]: [no log message]
+
+2000-08-25  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/edit_food_dlg.c, gnutrition/src/food_srch_dlg.c,
+	gnutrition/src/nutr_comp_dlg.c, gnutrition/src/nutr_goal_dlg.c,
+	gnutrition/src/nutrgoal_io.c, gnutrition/src/rdi.c,
+	gnutrition/src/recipe_io.c: added support for libxml2 as well as
+	gnome-xml.
+
+2000-08-25  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_io.c[DEAD], gnutrition/src/nutr_io.h[DEAD]:
+	[no log message]
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/README: increased version number to 0.2
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/NEWS: added gnutrition-0.2 release info.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/ChangeLog: point user to NEWS file.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/BUGS: point user to README file for submitting bugs.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe_win.h: added functions to return widgets to
+	be contained within base_win.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe_win.c: Initalize data without showing
+	window, changed so recipe_win widgets can be contained within
+	base_win.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/rdi.c: convert protein values from milligrams to
+	grams.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_goal_dlg.c: weight now can be input in kgs.
+	or lbs.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/main.c: added: #include "meal_plan_win.h"
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/load_data.c: new base_win.c startup instead of
+	recipe_win.c
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am: added new source files: base_win.c
+	base_win.c meal_plan_win.h meal_plan_win.c
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/pixmaps/apple-green.png,
+	gnutrition/pixmaps/apple-red.png: new file.
+
+2000-08-14  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/meal_plan_win.h, gnutrition/src/meal_plan_win.c,
+	gnutrition/src/base_win.h, gnutrition/src/base_win.c: new file.
+
+2000-08-02  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/rdi.c: ED: modification to rdi_calc_rdi() to take
+	into account possibility that nutr->total[]==0.0. Also moved
+	interconvertibility of proteins to nutr_comp_dlg.c.
+
+2000-08-02  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_goal_dlg.h: added a missing callback.
+
+2000-08-02  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_goal_dlg.c: made calculate notebook page
+	appear first when dialog first loaded.
+
+2000-08-02  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_comp_dlg.c: moved inverterconvertibilty of
+	proteins from rdi.c to compute_percent_nutrient_goal().
+
+2000-08-02  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food_srch_dlg.c: plugged memory leak in
+	gnutr_add_to_food_list_score().
+
+2000-08-02  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_srch_dlg.c[DEAD],
+	gnutrition/src/nutr_srch_dlg.h[DEAD]: [no log message]
+
+2000-08-01  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am: ED: added new *.c and *.h files to
+	gnutrition_SOURCES.
+
+2000-08-01  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe_win.c: ED: fixed a small typo.
+
+2000-08-01  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/rdi.c: ED: added FIXME: what if the nutr->total[]
+	values are == 0.0? to rdi_calc_rdi().
+
+2000-08-01  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_goal_dlg.c, gnutrition/src/nutr_goal_dlg.h:
+	folded in by hand changes of IH and ED.
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/AUTHORS: added Ian Haywood <ian@jeack.com.au>
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/po/POTFILES.in, gnutrition/src/food_srch_res.c,
+	gnutrition/src/food_srch_dlg.h: [no log message]
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/configure.in: bumped version number up to 0.2
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/Makefile.am: [no log message]
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/load_data.c, gnutrition/src/load_data.h,
+	gnutrition/src/recipe_file_dlg.c, gnutrition/src/recipe_file_dlg.h:
+	[no log message]
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/edit_food_dlg.c, gnutrition/src/food_srch_res.h,
+	gnutrition/src/food_srch_dlg.c, gnutrition/src/edit_food_dlg.h: [no
+	log message]
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_comp_dlg.c, gnutrition/src/recipe.h: [no log
+	message]
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/text_util.h, gnutrition/src/main.c,
+	gnutrition/src/messages.c, gnutrition/src/messages.h: [no log
+	message]
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food.h, gnutrition/src/nutrgoal_io.c,
+	gnutrition/src/recipe_io.c, gnutrition/src/recipe_win.c,
+	gnutrition/src/recipe_win.h, gnutrition/src/text_util.c: [no log
+	message]
+
+2000-07-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food.c: plug memory leaks.
+
+2000-07-28  Ian Haywood <ihaywood3@gmail.com>
+
+	* gnutrition/Makefile.in, gnutrition/aclocal.m4,
+	gnutrition/configure, gnutrition/po/gnutrition.pot,
+	gnutrition/src/Makefile.am, gnutrition/src/Makefile.in,
+	gnutrition/src/nutr_goal_dlg.c, gnutrition/src/nutr_goal_dlg.h,
+	gnutrition/src/rdi.c, gnutrition/src/rdi.h: Recommended Daily
+	Intake calculation routines added.  Recycled from the Recipe
+	Analysis Toool (RAT) project
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/script2.sh: [no log message]
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/print[DEAD]: [no log message]
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_srch_dlg.c: several changes to try and get
+	the food nutrient search, and ordering of food nutrient scores, to
+	work.
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_comp_dlg.c: changed to reflect that
+	Food_Nutr_t->value has changed from gchar* to gfloat[].
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/messages.h: added dialog to warn that no nutrients
+	have been selected when a search is made form the nutrient search
+	dialog.
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/messages.c: added dialog to warn if no nutrients
+	are selected for the search in the nutrient search dialog
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food.h: changed Food_Nutr_t->value from gchar* to
+	gfloat[]
+
+2000-07-03  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/food.c: changed create_food_nutr_glist() to
+	reflect the change from gchar* to double[] in Food_Nutr_t in food.h
+
+2000-06-26  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/search_dlg.c: added the
+	on_open_nutr_srch_dlg_button_released() callback that opens the
+	nutrient search dialog.
+
+2000-06-26  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/search_dlg.h: added
+	on_open_nutr_srch_dlg_button_released() callback for the new button
+	that opens the nutrient search dialog.
+
+2000-06-26  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/text_util.c: add check for minus sign to atoi()
+
+2000-06-26  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am: added messages.c messages.h
+	nutr_srch_dlg.c nutr_srch_dlg.h to the list of files
+
+2000-06-26  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_srch_dlg.c: [no log message]
+
+2000-06-26  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/messages.c, gnutrition/src/messages.h,
+	gnutrition/src/nutr_srch_dlg.h: [no log message]
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_io.c, gnutrition/src/recipe_win.c,
+	gnutrition/src/recipe_win.h, gnutrition/src/search_dlg.c,
+	gnutrition/src/search_dlg.h, gnutrition/src/text_util.c: [no log
+	message]
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/po/cat-id-tbl.c, gnutrition/po/gnutrition.pot,
+	gnutrition/src/Makefile.am, gnutrition/src/food.c,
+	gnutrition/src/food.h, gnutrition/src/nutr_comp_dlg.c,
+	gnutrition/src/nutr_comp_dlg.h: [no log message]
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/weight.txt: stripped out DOS control characters
+	and any ~
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/source.txt, gnutrition/data/script.sh,
+	gnutrition/data/script2.sh: [no log message]
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/nutr_def.txt: stripped out DOS control characters
+	and any ~
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/nut_data.txt: stripped out DOS control characters
+	and any ~
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/measure.txt: stripped out DOS control characters
+	and any ~, also removed leading 1s from measure descriptions
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/food_des.txt, gnutrition/data/footnote.txt:
+	stripped out DOS control characters and any ~
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/fd_group.txt: stripped out DOS control characters
+	and any "~"
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/NUTR_DEF.TXT[DEAD],
+	gnutrition/data/NUT_DATA.TXT[DEAD],
+	gnutrition/data/SOURCE.TXT[DEAD], gnutrition/data/WEIGHT.TXT[DEAD]:
+	[no log message]
+
+2000-06-21  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/FD_GROUP.TXT[DEAD],
+	gnutrition/data/FOOD_DES.TXT[DEAD],
+	gnutrition/data/FOOTNOTE.TXT[DEAD],
+	gnutrition/data/MEASURE.TXT[DEAD]: [no log message]
+
+2000-05-30  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/BUGS: [no log message]
+
+2000-05-30  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutr_comp_dlg.c, gnutrition/src/nutr_comp_dlg.h,
+	gnutrition/src/nutr_goal_dlg.c, gnutrition/src/nutr_goal_dlg.h,
+	gnutrition/src/nutr_io.c, gnutrition/src/nutr_io.h,
+	gnutrition/src/recipe_win.c, gnutrition/src/recipe_win.h,
+	gnutrition/src/search_dlg.c, gnutrition/src/search_dlg.h,
+	gnutrition/src/recipe_io.h[DEAD], gnutrition/src/recipe.h: [no log
+	message]
+
+2000-05-30  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/callbacks.c[DEAD],
+	gnutrition/src/callbacks.h[DEAD]: [no log message]
+
+2000-05-30  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/po/Makefile, gnutrition/po/POTFILES,
+	gnutrition/po/POTFILES.in, gnutrition/po/cat-id-tbl.c,
+	gnutrition/po/gnutrition.pot, gnutrition/src/Makefile.in: [no log
+	message]
+
+2000-05-30  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/Makefile, gnutrition/NEWS, gnutrition/README,
+	gnutrition/config.h, gnutrition/config.status,
+	gnutrition/src/Makefile, gnutrition/src/Makefile.am,
+	gnutrition/src/food.c, gnutrition/src/main.c,
+	gnutrition/src/nutrgoal_io.c, gnutrition/src/recipe_io.c: [no log
+	message]
+
+2000-05-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/pixmaps/gnutrition-logo.png, gnutrition/autogen.sh,
+	gnutrition/po/cat-id-tbl.c: [no log message]
+
+2000-05-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/po/gnutrition.pot, gnutrition/AUTHORS: [no log
+	message]
+
+2000-05-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/text_util.c, gnutrition/po/POTFILES: [no log
+	message]
+
+2000-05-19  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/po/Makefile.in, gnutrition/src/callbacks.c,
+	gnutrition/src/callbacks.h, gnutrition/src/food.c,
+	gnutrition/src/food.h: [no log message]
+
+2000-04-10  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/callbacks.c, gnutrition/src/recipe_io.h,
+	gnutrition/src/text_util.c, gnutrition/src/text_util.h: [no log
+	message]
+
+2000-04-10  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/nutrgoal_io.c, gnutrition/src/text_util.c: [no log
+	message]
+
+2000-04-10  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/callbacks.c, gnutrition/src/callbacks.h,
+	gnutrition/src/food.c: [no log message]
+
+2000-03-31  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile, gnutrition/src/Makefile.in,
+	gnutrition/src/callbacks.c, gnutrition/src/callbacks.h,
+	gnutrition/src/food.h, gnutrition/src/nutrgoal_io.c,
+	gnutrition/src/nutrgoal_io.h, gnutrition/src/recipe_io.h,
+	gnutrition/src/text_util.c, gnutrition/src/text_util.h: More new
+	stuff
+
+2000-03-27  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/Makefile.am, gnutrition/src/callbacks.c,
+	gnutrition/src/text_util.c, gnutrition/src/text_util.h: [no log
+	message]
+
+2000-03-27  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe.c[DEAD], gnutrition/src/recipe.h[DEAD],
+	gnutrition/src/nutrgoal_read.c[DEAD],
+	gnutrition/src/nutrgoal_read.h[DEAD]: [no log message]
+
+2000-03-27  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/src/recipe_io.c, gnutrition/src/recipe_io.h,
+	gnutrition/src/nutrgoal_io.h, gnutrition/src/nutrgoal_io.c: [no log
+	message]
+
+2000-03-24  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/NUT_DATA.TXT, gnutrition/data/SOURCE.TXT,
+	gnutrition/data/WEIGHT.TXT, gnutrition/intl/ChangeLog,
+	gnutrition/intl/Makefile, gnutrition/intl/Makefile.in,
+	gnutrition/intl/VERSION, gnutrition/intl/bindtextdom.c,
+	gnutrition/intl/cat-compat.c, gnutrition/intl/dcgettext.c,
+	gnutrition/intl/dgettext.c, gnutrition/intl/explodename.c,
+	gnutrition/intl/finddomain.c, gnutrition/intl/gettext.c,
+	gnutrition/intl/gettext.h, gnutrition/intl/gettextP.h,
+	gnutrition/intl/hash-string.h, gnutrition/intl/intl-compat.c,
+	gnutrition/intl/l10nflist.c, gnutrition/intl/libgettext.h,
+	gnutrition/intl/linux-msg.sed, gnutrition/intl/loadinfo.h,
+	gnutrition/intl/loadmsgcat.c, gnutrition/intl/localealias.c,
+	gnutrition/intl/po2tbl.sed, gnutrition/intl/po2tbl.sed.in,
+	gnutrition/intl/textdomain.c, gnutrition/intl/xopen-msg.sed,
+	gnutrition/pixmaps/splash_gnutrition.png, gnutrition/po/ChangeLog,
+	gnutrition/po/Makefile, gnutrition/po/Makefile.in,
+	gnutrition/po/Makefile.in.in, gnutrition/po/POTFILES,
+	gnutrition/po/POTFILES.in, gnutrition/po/cat-id-tbl.c,
+	gnutrition/po/gnutrition.pot, gnutrition/po/project15.pot,
+	gnutrition/po/stamp-cat-id, gnutrition/src/Makefile,
+	gnutrition/src/Makefile.am, gnutrition/src/Makefile.in,
+	gnutrition/src/callbacks.c, gnutrition/src/callbacks.h,
+	gnutrition/src/food.c, gnutrition/src/food.h,
+	gnutrition/src/main.c, gnutrition/src/nutrgoal_read.c,
+	gnutrition/src/nutrgoal_read.h, gnutrition/src/recipe.c,
+	gnutrition/src/recipe.h, gnutrition/src/support.c,
+	gnutrition/src/support.h, gnutrition/src/text_util.c,
+	gnutrition/src/text_util.h: Initial revision
+
+2000-03-24  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/data/NUT_DATA.TXT, gnutrition/data/SOURCE.TXT,
+	gnutrition/data/WEIGHT.TXT, gnutrition/intl/ChangeLog,
+	gnutrition/intl/Makefile, gnutrition/intl/Makefile.in,
+	gnutrition/intl/VERSION, gnutrition/intl/bindtextdom.c,
+	gnutrition/intl/cat-compat.c, gnutrition/intl/dcgettext.c,
+	gnutrition/intl/dgettext.c, gnutrition/intl/explodename.c,
+	gnutrition/intl/finddomain.c, gnutrition/intl/gettext.c,
+	gnutrition/intl/gettext.h, gnutrition/intl/gettextP.h,
+	gnutrition/intl/hash-string.h, gnutrition/intl/intl-compat.c,
+	gnutrition/intl/l10nflist.c, gnutrition/intl/libgettext.h,
+	gnutrition/intl/linux-msg.sed, gnutrition/intl/loadinfo.h,
+	gnutrition/intl/loadmsgcat.c, gnutrition/intl/localealias.c,
+	gnutrition/intl/po2tbl.sed, gnutrition/intl/po2tbl.sed.in,
+	gnutrition/intl/textdomain.c, gnutrition/intl/xopen-msg.sed,
+	gnutrition/pixmaps/splash_gnutrition.png, gnutrition/po/ChangeLog,
+	gnutrition/po/Makefile, gnutrition/po/Makefile.in,
+	gnutrition/po/Makefile.in.in, gnutrition/po/POTFILES,
+	gnutrition/po/POTFILES.in, gnutrition/po/cat-id-tbl.c,
+	gnutrition/po/gnutrition.pot, gnutrition/po/project15.pot,
+	gnutrition/po/stamp-cat-id, gnutrition/src/Makefile,
+	gnutrition/src/Makefile.am, gnutrition/src/Makefile.in,
+	gnutrition/src/callbacks.c, gnutrition/src/callbacks.h,
+	gnutrition/src/food.c, gnutrition/src/food.h,
+	gnutrition/src/main.c, gnutrition/src/nutrgoal_read.c,
+	gnutrition/src/nutrgoal_read.h, gnutrition/src/recipe.c,
+	gnutrition/src/recipe.h, gnutrition/src/support.c,
+	gnutrition/src/support.h, gnutrition/src/text_util.c,
+	gnutrition/src/text_util.h: [no log message]
+
+2000-03-24  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/ABOUT-NLS, gnutrition/AUTHORS, gnutrition/COPYING,
+	gnutrition/ChangeLog, gnutrition/INSTALL, gnutrition/Makefile,
+	gnutrition/Makefile.am, gnutrition/Makefile.in, gnutrition/NEWS,
+	gnutrition/README, gnutrition/acconfig.h, gnutrition/aclocal.m4,
+	gnutrition/autogen.sh, gnutrition/config.cache,
+	gnutrition/config.h, gnutrition/config.h.in, gnutrition/config.log,
+	gnutrition/config.status, gnutrition/configure,
+	gnutrition/configure.in, gnutrition/install-sh, gnutrition/missing,
+	gnutrition/mkinstalldirs, gnutrition/print, gnutrition/stamp-h,
+	gnutrition/stamp-h.in, gnutrition/data/FD_GROUP.TXT,
+	gnutrition/data/FOOD_DES.TXT, gnutrition/data/FOOTNOTE.TXT,
+	gnutrition/data/MEASURE.TXT, gnutrition/data/NUTR_DEF.TXT: Initial
+	revision
+
+2000-03-24  Edgar Denny <edenny@skyweb.net>
+
+	* gnutrition/ABOUT-NLS, gnutrition/AUTHORS, gnutrition/COPYING,
+	gnutrition/ChangeLog, gnutrition/INSTALL, gnutrition/Makefile,
+	gnutrition/Makefile.am, gnutrition/Makefile.in, gnutrition/NEWS,
+	gnutrition/README, gnutrition/acconfig.h, gnutrition/aclocal.m4,
+	gnutrition/autogen.sh, gnutrition/config.cache,
+	gnutrition/config.h, gnutrition/config.h.in, gnutrition/config.log,
+	gnutrition/config.status, gnutrition/configure,
+	gnutrition/configure.in, gnutrition/install-sh, gnutrition/missing,
+	gnutrition/mkinstalldirs, gnutrition/print, gnutrition/stamp-h,
+	gnutrition/stamp-h.in, gnutrition/data/FD_GROUP.TXT,
+	gnutrition/data/FOOD_DES.TXT, gnutrition/data/FOOTNOTE.TXT,
+	gnutrition/data/MEASURE.TXT, gnutrition/data/NUTR_DEF.TXT: [no log
+	message]
+
